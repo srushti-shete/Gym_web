@@ -66,4 +66,31 @@ body {
   .btn:hover {
     background-color: rgb(105, 102, 102);
   }
-  
+  .container {
+    border: 2px solid white;
+    margin: 100px 100px;
+    padding: 75px;
+    width: 33%;
+    border-radius: 28px;
+  }
+  .form-group input {
+    text-align: center;
+    display: block;
+    width: 400px;
+    padding: 9px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 7px;
+    font-family: "EB Garamond", serif;
+  }
+
+  .container h1 {
+    text-align: center;
+  }
+
+  .container button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+  }
